@@ -94,3 +94,8 @@ fn evict_all() {
     cache.evict_all();
     assert_eq!(items(&mut cache), [], "all items evicted again");
 }
+
+#[test]
+fn test_test() {
+    assert_eq!(2 + 2, 5);
+}
